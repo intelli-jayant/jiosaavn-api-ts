@@ -12,7 +12,7 @@ COPY package.json .
 
 RUN bun i
 
-EXPOSE 80:3000
+EXPOSE 3001:3001
 
 COPY . .
 
